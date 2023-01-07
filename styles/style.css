@@ -15,6 +15,17 @@
     border-radius: 5px;
 }
 
+.btn-secondary {
+    background-color: rgba(29, 29, 211, 0.72);
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    height: 40px;
+    padding: 14px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
 
 /* cover (first part of the page) */
 .cover {
@@ -68,11 +79,13 @@
 }
 
 .failure-description {
+    color: #757575;
     font-size: 14px;
     margin-bottom: 20px;
 }
 
 .list-of-failures {
+    color: #757575;
     font-size: 12px;
 }
 
@@ -92,6 +105,7 @@
 .plan-list-container {
     display: flex;
     justify-content: space-evenly;
+    padding: 0 160px;
 }
 
 .plan-img {
@@ -105,7 +119,8 @@
 }
 
 .plan-description {
-    font-size: 14px;
+    font-size: 18px;
+    color: #757575;
 }
 
 /* banner */
@@ -128,4 +143,61 @@
 .banner-title {
     color: #FFFFFF;
     font-size: 30px;
+}
+
+/* footer */
+
+.footer-container {
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: #FFFFFF;
+    padding: 0 160px 100px 160px;
+}
+
+.future-container {
+    margin-top: 100px;
+    width: 400px;
+}
+
+.future-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+address {
+    font-style: normal;
+}
+
+address a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.link {
+    margin-right: 10px;
+    height: 40px;
+}
+
+.subscribe-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.subscribe-email {
+    background-color: black;
+    color: #FFFFFF;
+    height: 30px;
+    width: 200px;
+    padding: 5px 0px 5px 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+::placeholder { 
+    color: #FFFFFF;
+    opacity: 1; 
 }
