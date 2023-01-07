@@ -1,12 +1,13 @@
 * {
     margin: 0;
     padding: 0; 
+    font-family: 'Varela Round', sans-serif;
 }
 
 /* button */
 .btn-primary {
     background-color: #FFFFFF;
-    color: rgba(29, 29, 211, 0.72);
+    color: #4267B2;
     font-weight: 700;
     font-size: 20px;
     height: 50px;
@@ -16,12 +17,12 @@
 }
 
 .btn-secondary {
-    background-color: rgba(29, 29, 211, 0.72);
+    background-color: #4267B2;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 16px;
     height: 40px;
-    padding: 14px 20px;
+    padding: 10px 20px;
     border: 0;
     border-radius: 5px;
 }
@@ -82,12 +83,22 @@
     color: #757575;
     font-size: 14px;
     margin-bottom: 20px;
+    width: 260px;
+    line-height: 150%;
 }
 
 .list-of-failures {
     color: #757575;
     font-size: 12px;
+    list-style-type: "✅";
+    padding: 0;
+    margin-left: 18px;
 }
+
+.list-of-failures li {
+    padding-bottom: 10px;
+}
+
 
 
 /* My Plans */
@@ -121,6 +132,34 @@
 .plan-description {
     font-size: 18px;
     color: #757575;
+}
+
+/* books */
+
+.books {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.books-title {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.books-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 150px;
+    margin-bottom: 100px;
+}
+
+.book-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.book {
+    height: 200px;
 }
 
 /* banner */
@@ -167,12 +206,20 @@
     margin-bottom: 20px;
 }
 
+.future-description {
+    color: lightgrey;
+    font-size: 12px;
+    line-height: 150%;
+}
+
 address {
     font-style: normal;
+    color: lightgrey;
+    font-size: 12px;
 }
 
 address a {
-    color: #FFFFFF;
+    color: lightgrey;
     text-decoration: none;
 }
 
