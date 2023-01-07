@@ -44,12 +44,13 @@
 }
 
 /* section */
+/* failure */
 .failure-container {
     height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .failure-image {
@@ -70,4 +71,20 @@
 .failure-description {
     font-size: 14px;
     margin-bottom: 20px;
+}
+
+.list-of-failures {
+    font-size: 12px;
+}
+
+
+/* My Plans */
+
+.my-plans {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.plan-title {
+    font-size: 30px;
 }
