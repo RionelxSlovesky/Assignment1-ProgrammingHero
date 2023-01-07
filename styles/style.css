@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+/* button */
+.btn-primary {
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    padding: 18px 35px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+/* cover (first part of the page) */
+.cover {
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.cover-content {
+    width: 400px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-left: 700px;
+}
+
+.cover-title {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.cover-description {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* section */
+.failure-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.failure-image {
+    height: 500px;
+}
+
+.failure-box {
+    width: 300px;
+    text-align: left;
+}
+
+.failure-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+.failure-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
