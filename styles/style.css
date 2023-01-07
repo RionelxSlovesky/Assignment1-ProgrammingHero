@@ -5,13 +5,12 @@
 
 /* button */
 .btn-primary {
-    background-color: #FD6E0A;
-    color: #FFFFFF;
-    padding: 5px 10px;
+    background-color: #FFFFFF;
+    color: rgba(29, 29, 211, 0.72);
     font-weight: 700;
     font-size: 20px;
-    height: 64px;
-    padding: 18px 35px;
+    height: 50px;
+    padding: 14px 20px;
     border: 0;
     border-radius: 5px;
 }
@@ -34,7 +33,7 @@
 
 .cover-title {
     font-size: 50px;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .cover-description {
@@ -111,12 +110,22 @@
 
 /* banner */
 .banner-container {
-    background-image: url(../images/watch.png);
-    background-color: url(../images/gradient1.png);
-    background-blend-mode: multiply;
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
     background-size: cover;
-    height: 200px;
+    height: 230px;
     width: 800px;
     margin-top: 100px;
     margin-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+}
+
+.banner-content-container {
+    padding: 50px 0 0 40px;
+}
+
+.banner-title {
+    color: #FFFFFF;
+    font-size: 30px;
 }
