@@ -31,8 +31,8 @@
 /* cover (first part of the page) */
 .cover {
     background-image: url('../images/banner/banner3.png');
-    background-size: auto 600px;
-    height: 600px;
+    background-size: auto 1000px;
+    height: 1000px;
     width: 100vw;
 }
 
