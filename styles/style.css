@@ -87,4 +87,36 @@
 
 .plan-title {
     font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.plan-list-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plan-img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.plan-img-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.plan-description {
+    font-size: 14px;
+}
+
+/* banner */
+.banner-container {
+    background-image: url(../images/watch.png);
+    background-color: url(../images/gradient1.png);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 200px;
+    width: 800px;
+    margin-top: 100px;
+    margin-bottom: 60px;
 }
