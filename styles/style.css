@@ -40,7 +40,8 @@
     width: 400px;
     text-align: right;
     color: #FFFFFF;
-    margin-left: 700px;
+    float: right;
+    margin-right: 200px;
 }
 
 .cover-title {
