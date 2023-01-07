@@ -32,7 +32,7 @@
 .cover {
     background-image: url('../images/banner/banner3.png');
     background-size: cover;
-    height: 100vh;
+    height: 600px;
     width: 100vw;
 }
 
@@ -46,7 +46,7 @@
 
 .cover-title {
     font-size: 50px;
-    margin-top: 70px;
+    margin-top: 130px;
 }
 
 .cover-description {
@@ -58,7 +58,7 @@
 /* section */
 /* failure */
 .failure-container {
-    height: 100vh;
+    height: 600px;
     width: 100vw;
     display: flex;
     align-items: center;
